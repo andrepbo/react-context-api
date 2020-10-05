@@ -8,11 +8,9 @@ import Mirror from "./components/Mirror";
 function App() {
   return (
     <CountProvider>
-      <div>
-        <Counter />
-        <hr />
-        <Mirror />
-      </div>
+      <Counter />
+      <hr />
+      <Mirror />
     </CountProvider>
   );
 }

@@ -1,6 +1,6 @@
 import React from "react";
 
-export const CountContext = React.createContext();
+const CountContext = React.createContext();
 
 export default function CountProvider({ children }) {
   const [count, setCount] = React.useState(0);

@@ -7,10 +7,10 @@ export default function Counter() {
   return (
     <div>
       <span>
+        <button onClick={() => setCount(count + 1)}>Increase</button>
+        <br />
         <b>Count: {count}</b>
       </span>
-      <br />
-      <button onClick={() => setCount(count + 1)}>Increase</button>
     </div>
   );
 }
