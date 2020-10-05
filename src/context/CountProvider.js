@@ -4,7 +4,6 @@ export const CountContext = React.createContext();
 
 export default function CountProvider({ children }) {
   const [count, setCount] = React.useState(0);
-  console.log(children);
   return (
     <CountContext.Provider value={{ count, setCount }}>
       {children}
